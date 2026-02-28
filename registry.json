@@ -7,7 +7,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-security.wasm",
             "checksum": "426d49ce6584099271ea89cb6263f1180f517ed8138e3133ad0365a86e50dc45",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-std-quality",
@@ -16,7 +16,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-quality.wasm",
             "checksum": "35a09d2ab8202b293a6b49651730195567424386c7524135396daeea73e121d4",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-std-hallucination",
@@ -25,7 +25,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-hallucination.wasm",
             "checksum": "c12aca2a1115b223855c6d62ee622154b36efcbe99d8baa53f74ed41542e9c82",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-std-privacy",
@@ -34,7 +34,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-privacy.wasm",
             "checksum": "5d9e3f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-law-moltbot",
@@ -43,7 +43,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-law-moltbot.wasm",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-std-no-todo",
@@ -52,7 +52,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-no-todo.wasm",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         },
         {
             "name": "lun-std-pruner",
@@ -61,7 +61,7 @@
             "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-pruner.wasm",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
-            "public_key": "2abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
         }
     ]
 }
