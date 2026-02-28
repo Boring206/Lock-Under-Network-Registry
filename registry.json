@@ -4,7 +4,7 @@
             "name": "lun-std-security",
             "version": "1.0.0",
             "description": "🛡️ Standard Security Pack. Multi-language guard against RCE, XSS, Unsafe blocks, and Hardcoded Secrets.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-security.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-security.wasm?v=1",
             "checksum": "426d49ce6584099271ea89cb6263f1180f517ed8138e3133ad0365a86e50dc45",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -13,7 +13,7 @@
             "name": "lun-std-quality",
             "version": "1.0.0",
             "description": "🧹 Standard Quality Pack. Enforces complexity limits, documentation requirements, and prevents AI boilerplate bloat.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-quality.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-quality.wasm?v=1",
             "checksum": "35a09d2ab8202b293a6b49651730195567424386c7524135396daeea73e121d4",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -22,7 +22,7 @@
             "name": "lun-std-hallucination",
             "version": "1.0.0",
             "description": "🌀 Anti-Hallucination Pack. Detects virtual APIs, non-idiomatic naming, and deprecated libraries frequently suggested by AI.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-hallucination.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-hallucination.wasm?v=1",
             "checksum": "c12aca2a1115b223855c6d62ee622154b36efcbe99d8baa53f74ed41542e9c82",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -31,7 +31,7 @@
             "name": "lun-std-privacy",
             "version": "1.0.0",
             "description": "🔐 Privacy Protection Pack. Prevents PII leaks (emails, phone, credit cards, SSN), unauthorized telemetry, and hardcoded credential exposure.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-privacy.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-privacy.wasm?v=1",
             "checksum": "5d9e3f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -40,7 +40,7 @@
             "name": "lun-law-moltbot",
             "version": "1.0.0",
             "description": "🤖 Moltbot Compatibility Pack. Smart whitelist allowing constructive AI automation (git, pip, node) while blocking destructive OS commands.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-law-moltbot.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-law-moltbot.wasm?v=1",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -49,7 +49,7 @@
             "name": "lun-std-no-todo",
             "version": "1.0.0",
             "description": "✅ Technical Debt Shield. VETOs any code write containing '// TODO', forcing AI agents to complete work rather than defer it.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-no-todo.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-no-todo.wasm?v=1",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
@@ -58,7 +58,7 @@
             "name": "lun-std-pruner",
             "version": "1.0.0",
             "description": "✂️ Structural Pruner. Blocks usage of '.unwrap()' in Rust and prohibits excessively large file writes (>10KB), preventing structural decay.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-pruner.wasm",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-pruner.wasm?v=1",
             "checksum": "PENDING_BUILD_HASH",
             "signature": "OFFICIAL_SIGNED",
             "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
