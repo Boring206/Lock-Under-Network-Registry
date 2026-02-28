@@ -1,67 +1,67 @@
 {
     "packages": [
         {
-            "name": "lun-std-security",
+            "name": "lun-law-moltbot",
             "version": "1.0.0",
-            "description": "🛡️ Standard Security Pack. Multi-language guard against RCE, XSS, Unsafe blocks, and Hardcoded Secrets.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-security.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
-        },
-        {
-            "name": "lun-std-quality",
-            "version": "1.0.0",
-            "description": "🧹 Standard Quality Pack. Enforces complexity limits, documentation requirements, and prevents AI boilerplate bloat.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-quality.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "description": "🤖 Moltbot Compatibility Pack. Smart whitelist allowing constructive AI automation (git, pip, node) while blocking destructive OS commands.",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-law-moltbot.wasm?v=4",
+            "checksum": "d054155b34922a110be6d8f7256c0260ed7504da52e9b37ad7ba5a77f375610a",
+            "signature": "537a2b5859e44e9c9f01d137778a74db2184efd68542ea69f43e69779cdf02a34f0b46f88fffb0acb26f4134f9368b13a3e3c599f01f31a968880f494e5fa109",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
         },
         {
             "name": "lun-std-hallucination",
             "version": "1.0.0",
             "description": "🌀 Anti-Hallucination Pack. Detects virtual APIs, non-idiomatic naming, and deprecated libraries frequently suggested by AI.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-hallucination.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
-        },
-        {
-            "name": "lun-std-privacy",
-            "version": "1.0.0",
-            "description": "🔐 Privacy Protection Pack. Prevents PII leaks (emails, phone, credit cards, SSN), unauthorized telemetry, and hardcoded credential exposure.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-privacy.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
-        },
-        {
-            "name": "lun-law-moltbot",
-            "version": "1.0.0",
-            "description": "🤖 Moltbot Compatibility Pack. Smart whitelist allowing constructive AI automation (git, pip, node) while blocking destructive OS commands.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-law-moltbot.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-hallucination.wasm?v=4",
+            "checksum": "e6334f074204e11d024b62392c6ce32d6cddd639ceb57862e7a6831a5502ad29",
+            "signature": "31391266fec5c38a28fddf8cab7b6f992742f8f5b9aff0c4663a228eec2f7677e8270c4234f1dc47255b949b3ac5df3f2d8c4dac7d3563736baf93880963cf0b",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
         },
         {
             "name": "lun-std-no-todo",
             "version": "1.0.0",
             "description": "✅ Technical Debt Shield. VETOs any code write containing '// TODO', forcing AI agents to complete work rather than defer it.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-no-todo.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-no-todo.wasm?v=4",
+            "checksum": "6dbb08f5fabf344f1c5f01ce3288b7b1e605748a0fa9a0f3c11a7951fb81f33e",
+            "signature": "65520aa1a2a4772e047951315721f45079f50d42ea024f3eb274b72931b4fde7f04a13eead5da11247218463f477002a4b7c29e8d1b738190c68d2529db02103",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
+        },
+        {
+            "name": "lun-std-privacy",
+            "version": "1.0.0",
+            "description": "🔐 Privacy Protection Pack. Prevents PII leaks (emails, phone, credit cards, SSN), unauthorized telemetry, and hardcoded credential exposure.",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-privacy.wasm?v=4",
+            "checksum": "47200e58c121e4026d1958832dc3c565ed4f781c055f488fbc0cde6a1e618fe1",
+            "signature": "61af355aee651b936f48882e50b0c4249804985a91883f48269a952af30618548d9b9032d1533140b161c9760bff3139e7ba76da0c0d56522f47f6c7abe03d06",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
         },
         {
             "name": "lun-std-pruner",
             "version": "1.0.0",
             "description": "✂️ Structural Pruner. Blocks usage of '.unwrap()' in Rust and prohibits excessively large file writes (>10KB), preventing structural decay.",
-            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-pruner.wasm?v=3",
-            "checksum": "PENDING_BUILD_HASH",
-            "signature": "OFFICIAL_SIGNED",
-            "public_key": "abd403a1950d29a78b0872a7940343212b2524a8a256f51e33e88d781586960f"
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-pruner.wasm?v=4",
+            "checksum": "bd8f76f3f1aa291637a0c404e967b3f95eba5525a36bd0cc24e36f0fc9dfaa64",
+            "signature": "573ed3ffc8e84423986df5f3171bb0ed55fb9e94129524526ab01d7ec8398d61fd96a7a1fbd400a10cd1fe79c4813ef65bae98c947585395bc7e370bfca59f0f",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
+        },
+        {
+            "name": "lun-std-quality",
+            "version": "1.0.0",
+            "description": "🧹 Standard Quality Pack. Enforces complexity limits, documentation requirements, and prevents AI boilerplate bloat.",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-quality.wasm?v=4",
+            "checksum": "f2220444c82f207beac043c7de6d0d97941f8549c5cce1d3a8302fa82e0b7ed2",
+            "signature": "2b4f5b11fd136618a011113d80006e3b93f1c60faa4e70fae7d150651c5ab741d8e6e16192e98de610d20ab413b69a8e1b59a8edcfb361089e31dd9c120a080c",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
+        },
+        {
+            "name": "lun-std-security",
+            "version": "1.0.0",
+            "description": "🛡️ Standard Security Pack. Multi-language guard against RCE, XSS, Unsafe blocks, and Hardcoded Secrets.",
+            "url": "https://raw.githubusercontent.com/Boring206/Lock-Under-Network-Registry/main/plugins/lun-std-security.wasm?v=4",
+            "checksum": "2e665f6bce3477494d43e6cdf999f1289d8dc57833f85fb50b090559e7140be2",
+            "signature": "580be1f578140bef38456e669d10fafe67cec4e20d8b61a14b4b43c85dcfc7cd6a06e479a25da040755cddf3b6e72698f2ed46e080b16cc662f77e9423a7d306",
+            "public_key": "15897b2f0e141da188ce24f8536e8068f4dfd277ace1c96eb664ee16707db0a0"
         }
     ]
 }
