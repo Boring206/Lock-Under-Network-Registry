@@ -1,0 +1,29 @@
+{
+  "_comment": "L.U.N. Official Release Registry — managed by CI/CD pipeline (BUILD_AND_RELEASE.ps1)",
+  "_doc": "To generate a valid release entry: run `lun certify --emit-hash` on final binary, then sign with `lun-release-keygen sign <hash> --key release.key`",
+
+  "schema_version": "1.0.0",
+
+  "latest": {
+    "version": "1.0.0",
+    "released_at": "2026-03-02T00:00:00Z",
+    "channel": "stable",
+
+    "windows_x64": "UNSIGNED_DEV_BUILD",
+    "linux_x64":   "UNSIGNED_DEV_BUILD",
+    "macos_arm64": "UNSIGNED_DEV_BUILD",
+
+    "signature": "",
+    "_note": "Fields above are placeholders. CI must replace them with real SHA-256 + ed25519 signature before publishing."
+  },
+
+  "pipeline_instructions": {
+    "step_1": "cargo build --release -p lun_cli",
+    "step_2": "sha256sum ./target/release/lun (or Get-FileHash on Windows)",
+    "step_3": "Set result in windows_x64 / linux_x64 / macos_arm64 fields",
+    "step_4": "Sign the hash string: `echo -n <hash> | openssl pkeyutl -sign -inkey release_ed25519.pem | xxd -p -cols 64`",
+    "step_5": "Set signature field to the hex-encoded 64-byte ed25519 signature",
+    "step_6": "Set LUN_AUTHORITY_KEY env var in CD to the hex-encoded 32-byte ed25519 public key",
+    "step_7": "Push this file to Lock-Under-Network-Registry/core_release.json on the `main` branch"
+  }
+}
